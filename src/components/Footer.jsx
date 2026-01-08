@@ -5,7 +5,6 @@ export default function Footer() {
     <footer className="relative bg-black border-t border-gray-800">
       <div className="mx-auto max-w-6xl px-6 py-12 lg:px-8">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-8">
-          {/* Left */}
           <div className="flex flex-col gap-4">
             <h3 className="text-2xl font-bold text-gray-100">
               {siteConfig.name}
@@ -50,7 +49,6 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Right */}
           <div className="hidden md:flex flex-col md:items-end gap-4">
             <nav className="flex gap-x-8">
               {["about", "projects", "experience", "education"].map((item) => (
@@ -72,7 +70,6 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Decorative pattern */}
       <div className="absolute inset-0 -z-10 overflow-hidden">
         <svg
           aria-hidden="true"
@@ -101,7 +98,6 @@ export default function Footer() {
   );
 }
 
-/* Small reusable icon wrapper */
 function FooterIcon({ href, label, children }) {
   return (
     <a

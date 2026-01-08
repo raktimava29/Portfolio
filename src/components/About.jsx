@@ -10,9 +10,8 @@ export default function About() {
   ];
 
   return (
-    <section id="about" className="bg-black p-8 sm:p-12 md:p-16 lg:p-24">
+    <div id="about" className="bg-black p-8 sm:p-12 md:p-16 lg:p-24">
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
-        {/* Left */}
         <div className="lg:col-span-4">
           <h2 className="text-3xl sm:text-4xl md:text-5xl xl:text-7xl font-bold text-gray-100">
             About Me
@@ -24,7 +23,6 @@ export default function About() {
           />
         </div>
 
-        {/* Right */}
         <div className="lg:col-span-8 space-y-8">
           <p className="text-lg sm:text-xl md:text-2xl leading-relaxed text-gray-400">
             {siteConfig.aboutMe}
@@ -44,6 +42,6 @@ export default function About() {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 }

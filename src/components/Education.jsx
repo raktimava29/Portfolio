@@ -2,7 +2,7 @@ import { siteConfig } from "../data/info";
 
 export default function Education() {
   return (
-    <section id="education" className="bg-black p-8 sm:p-12 md:p-16 lg:p-24">
+    <div id="education" className="bg-black p-8 sm:p-12 md:p-16 lg:p-24">
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
         <div className="lg:col-span-4">
           <h2 className="text-3xl sm:text-4xl md:text-5xl xl:text-7xl font-bold text-gray-100">
@@ -88,6 +88,6 @@ export default function Education() {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 }

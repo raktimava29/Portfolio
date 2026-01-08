@@ -2,7 +2,7 @@ import { siteConfig } from "../data/info";
 
 export default function Projects() {
   return (
-    <section id="projects" className="bg-black p-8 sm:p-12 md:p-16 lg:p-24">
+    <div id="projects" className="bg-black p-8 sm:p-12 md:p-16 lg:p-24">
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
         <div className="lg:col-span-4">
           <h2 className="text-3xl sm:text-4xl md:text-5xl xl:text-7xl font-bold text-gray-100">
@@ -84,16 +84,13 @@ export default function Projects() {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-2 text-sm sm:text-base font-medium px-4 py-2 rounded-md border border-gray-300 text-gray-100 transition-all duration-300 hover:text-white hover:border-transparent hover:-translate-y-0.5 hover:shadow-lg active:translate-y-0"
-                       style={{
-    backgroundColor: "#C2C8CC",   // light gray (default)
-    borderColor: "#ffffff40",
-  }}
-  onMouseEnter={(e) => {
-    e.currentTarget.style.backgroundColor = "#E0DEDE"; // darker gray
-  }}
-  onMouseLeave={(e) => {
-    e.currentTarget.style.backgroundColor = "#C2C8CC"; // back to light
-  }}
+                      style={{ backgroundColor: "#B0B0B0",borderColor: "#ffffff40" }}
+                      onMouseEnter={(e) => {
+                        e.currentTarget.style.backgroundColor = "#C4C0BE";
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.backgroundColor = "#B0B0B0";
+                      }}
                     >
                       GitHub
                       <svg
@@ -117,6 +114,6 @@ export default function Projects() {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
