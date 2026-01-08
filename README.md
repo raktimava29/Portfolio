@@ -1,16 +1,64 @@
-# React + Vite
+# 🚀 Raktimava Bhattacharyya — Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and performance-focused personal portfolio built with **React + Vite**, styled using **Tailwind CSS**, and deployed on **Vercel**.  
+The portfolio showcases my projects, skills, education, and achievements with a clean **dark (red & black) theme** and smooth UI interactions.
 
-Currently, two official plugins are available:
+🔗 **Live Website:** https://raktimava-portfolio.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ⚡ Built with **React + Vite** for fast development and optimized builds  
+- 🎨 **Dark theme** with red accent for a clean, professional look  
+- 📱 Fully **responsive** across devices  
+- 🧩 Modular, component-based architecture  
+- 🔗 Live project demos & GitHub repository links  
+- 🎯 Clear separation of **Projects**, **Skills**, **Education**, and **Achievements**  
+- 🌐 Custom domain with HTTPS (Vercel)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+### Frontend
+- React
+- Vite
+- Tailwind CSS
+
+### Deployment
+- Vercel
+
+---
+
+
+## 📌 Highlighted Projects
+
+- **MindTube** – MERN-based collaborative learning platform with Google OAuth, JWT authentication, and interactive tools  
+- **ConvoDesk** – Real-time chat application using Socket.IO and JWT-based authentication  
+- **Bookmarker Chrome Extension** – Lightweight bookmark manager using Chrome Extension APIs  
+- **Tic-Tac-Toe Game** – Browser-based game with clean game logic and responsive UI  
+
+Each project includes:
+- Detailed description  
+- Tech stack  
+- GitHub repository  
+- Live demo (where applicable)  
+
+---
+
+## 🌍 Deployment
+
+This portfolio is deployed on Vercel with a custom domain.
+
+- Every push to the main branch triggers an automatic redeployment.
+- HTTPS is enabled by default  
+
+---
+
+## 📫 Contact
+
+Each project includes:
+- **Email** : raktim.bhatta29@gmail.com  
+- **GitHub** : https://github.com/raktimava29
+- **LinkedIn** : https://www.linkedin.com/in/raktimava-bhattacharyya
