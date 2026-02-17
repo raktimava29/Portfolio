@@ -112,6 +112,13 @@ export const siteConfig = {
         "A lightweight Chrome extension that allows users to save, organize, and manage bookmarks through a simple popup interface. Built using vanilla JavaScript and Chrome Extension APIs, the extension stores data locally using LocalStorage to ensure fast access and persistence across browser sessions without relying on external services.",
       techStack: ["HTML", "CSS", "JavaScript", "Chrome Extension APIs"],
       repo_link: "https://github.com/raktimava29/Extension",
+    },
+    {
+      name: "Tic-Tac-Toe Game",
+      description:
+      "A browser-based Tic-Tac-Toe game developed using HTML, CSS, and JavaScript, focusing on clean game logic and user interaction. The project implements proper game state management, win-condition evaluation, and responsive styling with visual feedback to enhance usability across different screen sizes.",
+      techStack: ["HTML", "CSS", "JavaScript"],
+      repo_link: "https://github.com/raktimava29/Tic-Tac-Toe",
     }
   ],
 

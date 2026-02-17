@@ -39,7 +39,7 @@ The portfolio showcases my projects, skills, education, and achievements with a 
 - **MindTube** – MERN-based collaborative learning platform with Google OAuth, JWT authentication, and interactive tools  
 - **ConvoDesk** – Real-time chat application using Socket.IO and JWT-based authentication  
 - **Bookmarker Chrome Extension** – Lightweight bookmark manager using Chrome Extension APIs  
-
+- **Tic-Tac-Toe Game** – Browser-based game with clean game logic and responsive UI
 Each project includes:
 - Detailed description  
 - Tech stack  
