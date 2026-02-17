@@ -58,6 +58,22 @@ export const siteConfig = {
 
   projects: [
     {
+      name: "ChronoMail",
+      description:
+        "A production-grade email scheduling service and dashboard built using Node.js and Redis, designed to reliably schedule and send emails at scale. The system accepts email requests via REST APIs and queues them using BullMQ with Redis as a persistent job store, avoiding traditional cron-based scheduling. Each email is processed by a dedicated worker that handles delayed execution, retry mechanisms, and failure handling before sending via SMTP (Ethereal for testing). The architecture separates API and worker processes, ensuring reliability, scalability, and crash resilience while maintaining clean backend design principles.",
+      techStack: [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Redis",
+        "BullMQ",
+        "Nodemailer",
+        "JWT"
+      ],
+      repo_link: "https://github.com/raktimava29/emaillscheduler2",
+      live_link: "https://emaillscheduler2.vercel.app/"
+    },
+    {
       name: "MindTube",
       description:
         "A full-stack collaborative learning platform built on the MERN stack, designed to combine video-based learning with real-time collaboration. The platform supports secure authentication using Google OAuth and JWT, role-based access control to manage editing permissions, and interactive notepad and whiteboard features linked to video URLs. The application was structured with scalable backend APIs and optimized deployment by consolidating frontend and backend services on Render, significantly reducing setup and deployment complexity.",
@@ -96,15 +112,7 @@ export const siteConfig = {
         "A lightweight Chrome extension that allows users to save, organize, and manage bookmarks through a simple popup interface. Built using vanilla JavaScript and Chrome Extension APIs, the extension stores data locally using LocalStorage to ensure fast access and persistence across browser sessions without relying on external services.",
       techStack: ["HTML", "CSS", "JavaScript", "Chrome Extension APIs"],
       repo_link: "https://github.com/raktimava29/Extension",
-    },
-
-    {
-      name: "Tic-Tac-Toe Game",
-      description:
-      "A browser-based Tic-Tac-Toe game developed using HTML, CSS, and JavaScript, focusing on clean game logic and user interaction. The project implements proper game state management, win-condition evaluation, and responsive styling with visual feedback to enhance usability across different screen sizes.",
-      techStack: ["HTML", "CSS", "JavaScript"],
-      repo_link: "https://github.com/raktimava29/Tic-Tac-Toe",
-    },
+    }
   ],
 
   education: [
