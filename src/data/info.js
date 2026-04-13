@@ -144,6 +144,6 @@ export const siteConfig = {
 
   achievements: [
     "Solved 300+ algorithmic problems on GeeksforGeeks, CodeChef, LeetCode, and HackerRank",
-    "Placed 3rd in intra-college Smart India Hackathon 2023 and qualified for SIH 2023",
+    "Smart India Hackathon 2023, 2nd place (intra-college round, 26 teams) qualified for SIH 2023.",
   ],
 };
