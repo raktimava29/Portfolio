@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "Raktimava Bhattacharyya",
 
-  title: "MERN Stack Developer | Full-Stack Web Developer",
+  title: "Full-Stack Web Developer",
 
   accentColor: "#dc2626",
 
@@ -12,7 +12,7 @@ export const siteConfig = {
   },
 
   aboutMe:
-    "I am a MERN Stack Developer and an Electronics and Communication Engineering undergraduate at IIIT Bhagalpur. I enjoy building full-stack web applications with clean architecture, secure authentication, and real-time features. My experience includes designing REST APIs, implementing JWT and OAuth-based authentication, building real-time systems with Socket.IO, and deploying scalable applications. I focus on writing maintainable code while strengthening my understanding of core computer science fundamentals.",
+    `I’m a full-stack developer from IIIT Bhagalpur with a strong focus on backend engineering and building scalable systems. I enjoy working on applications that involve real-time features, performance, and thoughtful system design. I use Node.js and FastAPI to make apps that are ready for production. I have experience designing scalable REST APIs, handling asynchronous workflows with queues (BullMQ + Redis), and using Socket.IO to enable real-time communication. I write code that is easy to read and maintain and I also work with LLM-powered workflows by integrating APIs to build intelligent features such as content generation and structured data processing, applying them where they add real value.`,
 
   skills: {
     languages: [
@@ -22,20 +22,31 @@ export const siteConfig = {
       "TypeScript",
       "Python",
     ],
-    frameworksAndLibraries: [
+    frontendTechnologies: [
       "React.js",
-      "Node.js",
-      "Express.js",
       "Vite",
       "Tailwind CSS",
       "Chakra UI",
-      "Socket.IO",
       "Axios",
+    ],
+    backendTechnologies: [
+      "Node.js",
+      "Express.js",
+      "FastAPI",
       "JWT",
       "bcrypt",
+      "Socket.IO",
+      "BullMQ",
     ],
-    databasesAndDeployment: [
-      "MongoDB (Mongoose)",
+    Databases: [
+      "MongoDB",
+      "MySQL",
+      "PostgreSQL",
+      "Redis",
+      "Supabase",
+    ],
+    Deployment: [
+      "Docker",
       "Firebase",
       "Render",
       "Netlify",
@@ -47,12 +58,6 @@ export const siteConfig = {
       "Postman",
       "Chrome DevTools",
       "NPM",
-    ],
-    csFundamentals: [
-      "Data Structures & Algorithms",
-      "DBMS (SQL & NoSQL)",
-      "Operating Systems",
-      "Object Oriented Programming System",
     ],
   },
 
@@ -72,6 +77,21 @@ export const siteConfig = {
       ],
       repo_link: "https://github.com/raktimava29/emaillscheduler2",
       live_link: "https://emaillscheduler2.vercel.app/"
+    },
+    {
+      name: "AI Flashcard Learning System",
+      description:
+        "Built a full-stack AI-powered flashcard system that generates, validates, and schedules learning content from PDFs. Implemented a FastAPI backend to extract text, generate structured flashcards using LLM APIs, and apply a spaced repetition algorithm using interval-based scheduling and next-review timestamps. Designed robust data handling with JSON validation, deduplication, and state tracking to ensure consistency in learning flow. The system supports adaptive review based on user feedback, enabling efficient long-term retention.",
+      techStack: [
+        "Python",
+        "FastAPI",
+        "Groq",
+        "JavaScript",
+        "React.js",
+        "Tailwind CSS"
+      ],
+      repo_link: "https://github.com/raktimava29/Flashcard-Engine",
+      live_link: "https://flashcard-engine-theta.vercel.app/" 
     },
     {
       name: "MindTube",
@@ -113,13 +133,6 @@ export const siteConfig = {
       techStack: ["HTML", "CSS", "JavaScript", "Chrome Extension APIs"],
       repo_link: "https://github.com/raktimava29/Extension",
     },
-    {
-      name: "Tic-Tac-Toe Game",
-      description:
-      "A browser-based Tic-Tac-Toe game developed using HTML, CSS, and JavaScript, focusing on clean game logic and user interaction. The project implements proper game state management, win-condition evaluation, and responsive styling with visual feedback to enhance usability across different screen sizes.",
-      techStack: ["HTML", "CSS", "JavaScript"],
-      repo_link: "https://github.com/raktimava29/Tic-Tac-Toe",
-    }
   ],
 
   education: [

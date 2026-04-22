@@ -1,13 +1,7 @@
 import { siteConfig } from "../data/info";
 
 export default function About() {
-  const displaySkills = [
-    ...siteConfig.skills.languages,
-    ...siteConfig.skills.frameworksAndLibraries,
-    ...siteConfig.skills.databasesAndDeployment,
-    ...siteConfig.skills.developerTools,
-    ...siteConfig.skills.csFundamentals,
-  ];
+  const skillGroups = siteConfig.skills;
 
   return (
     <div id="about" className="bg-black p-8 sm:p-12 md:p-16 lg:p-24">
@@ -28,17 +22,25 @@ export default function About() {
             {siteConfig.aboutMe}
           </p>
 
-          <div className="pt-4">
-            <div className="flex flex-wrap gap-3">
-              {displaySkills.map((skill, index) => (
-                <span
-                  key={index}
-                  className="px-3 sm:px-4 py-1.5 sm:py-2 bg-gray-800 text-gray-200 rounded-full text-sm sm:text-base md:text-lg font-medium hover:bg-gray-700 transition-colors duration-200"
-                >
-                  {skill}
-                </span>
-              ))}
-            </div>
+          <div className="pt-4 space-y-6">
+            {Object.entries(skillGroups).map(([category, skills]) => (
+              <div key={category}>
+                <h3 className="text-gray-300 text-sm sm:text-base md:text-lg font-semibold mb-2 capitalize">
+                  {category.replace(/([A-Z])/g, " $1")}
+                </h3>
+
+                <div className="flex flex-wrap gap-3">
+                  {skills.map((skill, index) => (
+                    <span
+                      key={index}
+                      className="px-3 sm:px-4 py-1.5 sm:py-2 bg-gray-800 text-gray-200 rounded-full text-sm sm:text-base md:text-lg font-medium hover:bg-gray-700 transition-colors duration-200"
+                    >
+                      {skill}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>
